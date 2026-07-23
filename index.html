@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ===========================================================
+        Hemant Portfolio v4.0
+        Author  : Hemant Singh
+        Website : Personal Portfolio
+        Tech    : HTML5 • CSS3 • JavaScript
+    ============================================================ -->
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Hemant Singh | Software Engineer Portfolio
+    </title>
+
+    <meta name="description"
+content="Portfolio of Hemant Singh, a Computer Science student passionate about software engineering, AI, full-stack development, and building scalable applications.">
+
+    <meta name="keywords"
+        content="Hemant Singh, Portfolio, C++, AI, Developer, Web Development">
+
+    <meta name="author"
+        content="Hemant Singh">
+
+    <meta property="og:title"
+        content="Hemant Singh | Portfolio">
+
+    <meta property="og:description"
+        content="Software Developer • AI Enthusiast • Computer Science Student">
+
+    <meta property="og:type"
+        content="website">
+
+    <meta property="og:image"
+        content="assets/profile/preview.png">
+
+    <meta property="theme-color"
+        content="#09090B">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">    
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+    
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+
+<body>
+
+    <canvas id="neural-bg"></canvas>
+
+    <!-- ===========================================================
+        SCROLL PROGRESS
+    ============================================================ -->
+
+    <div class="scroll-progress"></div>
+
+    <!-- ===========================================================
+        CURSOR GLOW
+    ============================================================ -->
+
+    <div class="cursor-glow"></div>
+
+    <!-- ===========================================================
+        LOADER
+    ============================================================ -->
+
+    <div id="loader">
+
+        <div class="loader-logo">
+
+            HS
+
+        </div>
+
+    </div>
+
+    <!-- ===========================================================
+        HEADER
+    ============================================================ -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <!-- Logo -->
+
+                <a href="#hero"
+                    class="logo">
+
+                    <span>Hemant</span>
+
+                </a>
+
+                <!-- Navigation -->
+
+                <ul class="nav-links">
+
+                    <li>
+
+                        <a href="#projects">
+
+                            Projects
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#about">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#skills">
+
+                            Skills
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#journey">
+
+                            Journey
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#contact">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <!-- Right Side -->
+
+                <div class="nav-actions">
+
+                    <button
+                        class="theme-toggle"
+                        aria-label="Toggle Theme">
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+                    <a href="assets/resume/Hemant_Singh_Resume.pdf"
+                        target="_blank"
+                        class="resume-button">
+
+                        Resume
+
+                    </a>
+
+                    <button
+                        class="mobile-menu-btn"
+                        aria-label="Open Menu">
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ===========================================================
+        MOBILE MENU
+    ============================================================ -->
+
+    <aside class="mobile-menu">
+
+        <button class="close-menu">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#journey">Journey</a>
+
+        <a href="#contact">Contact</a>
+
+    </aside>
+
+    <!-- ===========================================================
+        MAIN
+    ============================================================ -->
+
+    <main>
+
+        <!-- =======================================================
+            HERO
+        ======================================================== -->
+
+        <section
+            class="hero"
+            id="hero">
+
+            <div class="container hero-grid">
+
+                <!-- Left -->
+
+                <div class="hero-content">
+
+                    <span class="status-badge">
+
+                        <span class="status-dot"></span>
+
+                        Open to Internship Opportunities
+
+                    </span>
+
+                    <p class="hero-intro">
+
+                        SOFTWARE DEVELOPER
+
+                    </p>
+
+                    <h1>
+
+                        Hi, I'm
+                        Hemant Singh
+                        a Software Engineer
+
+                    </h1>
+
+                    <p class="hero-description">
+
+                        I'm a Computer Science undergraduate at ABES Engineering College
+                        passionate about software engineering, AI, and full-stack development.
+                        I enjoy building clean, scalable applications while continuously learning
+                        modern technologies like Agentic AI and Engineering scalable real world projects
+                        and building modern digital experiences.
+                        
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects"
+                            class="btn btn-primary">
+
+                            View My Work
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                        <a href="assets/resume/Hemant_Singh_Resume.pdf"
+                            target="_blank"
+                            class="btn btn-secondary">
+
+                            Download Resume
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-social">
+
+                        <a href="https://github.com/Hemantsinghsai">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/hemant-singh-a77942379/">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+                        <a href="https://leetcode.com/u/Hemantsinghsai/">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </a>
+
+                        <a href="mailto:hemantsinghsai@gmail.com">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="hero-image">
+
+                    <div class="portrait-card">
+
+                        <img
+                            src="assets/profile/profile.jpg"
+                            alt="Hemant Singh">
+
+                        <div class="floating-card">
+
+                            <span>
+
+                                🚀 Currently Learning
+
+                            </span>
+
+                            <h4>
+
+                                Full Stack Development
+
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+                <!-- =======================================================
+            FEATURED PROJECTS
+        ======================================================== -->
+
+        <section class="projects section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        Selected Work
+                    </span>
+
+                    <h2>
+                        Projects I've built through curiosity,
+                        learning and problem solving.
+                    </h2>
+
+                    <p>
+
+                        Every project represents a step in my journey as a
+                        software developer. I enjoy transforming ideas into
+                        practical applications while continuously learning
+                        modern technologies.
+
+                    </p>
+
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- ==========================================
+                        PROJECT 01
+                    =========================================== -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="assets/projects/ai-research-agent/thumbnail.png"
+                                alt="AI Research Agent">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+
+                                Artificial Intelligence
+
+                            </span>
+
+                            <h3>
+
+                                AI Research Agent
+
+                            </h3>
+
+                            <p>
+
+                                A research assistant powered by AI that gathers,
+                                summarizes and organizes information into
+                                structured, easy-to-read reports.
+
+                            </p>
+
+                            <div class="project-tech">
+
+                                <span>Python</span>
+
+                                <span>Streamlit</span>
+
+                                <span>OpenAI API</span>
+
+                            </div>
+
+                            <div class="project-footer">
+
+                                <a href="https://github.com/Hemantsinghsai">
+
+                                    <i class="fab fa-github"></i>
+
+                                    GitHub
+
+                                </a>
+
+                                <a href="https://github.com/Hemantsinghsai">
+
+                                    Live Demo
+
+                                </a>
+
+                                <a href="pages/ai-research-agent.html">
+
+                                    Case Study
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- ==========================================
+                        PROJECT 02
+                    =========================================== -->
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="assets/projects/weather-dashboard/thumbnail.png"
+                                alt="Weather Dashboard">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+
+                                Web Development
+
+                            </span>
+
+                            <h3>
+
+                                Weather Dashboard
+
+                            </h3>
+
+                            <p>
+
+                                A responsive weather application that displays
+                                current conditions and forecasts using REST APIs,
+                                designed with a clean and modern interface.
+
+                            </p>
+
+                            <div class="project-tech">
+
+                                <span>HTML5</span>
+
+                                <span>CSS3</span>
+
+                                <span>JavaScript</span>
+
+                                <span>REST API</span>
+
+                            </div>
+
+                            <div class="project-footer">
+
+                                <a href="https://github.com/Hemantsinghsai">
+
+                                    <i class="fab fa-github"></i>
+
+                                    GitHub
+
+                                </a>
+
+                                <a href="https://whynamethis.netlify.app/">
+
+                                    Live Demo
+
+                                </a>
+
+                                <a href="pages/weather-dashboard.html">
+
+                                    Case Study
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- ==================================================
+
+                        FUTURE PROJECT TEMPLATE
+
+                        Duplicate any complete project-card below
+                        this comment whenever you build a new project.
+
+                        Recommended information:
+
+                        - Thumbnail
+                        - Category
+                        - Title
+                        - Description
+                        - Technologies
+                        - GitHub
+                        - Live Demo
+                        - Case Study
+
+                    =================================================== -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================================
+            ABOUT
+        ======================================================== -->
+
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <!-- Left -->
+
+                <div class="about-image">
+
+                    <img
+                        src="assets/profile/profile.jpg"
+                        alt="Hemant Singh">
+
+                </div>
+
+                <!-- Right -->
+
+                <div class="about-content">
+
+                    <span class="section-label">
+
+                        About Me
+
+                    </span>
+
+                    <h2>
+
+                        Passionate about building software that creates
+                        meaningful experiences.
+
+                    </h2>
+
+                    <p>
+
+                        I'm Hemant Singh, a Computer Science student with a
+                        strong interest in software engineering, artificial
+                        intelligence, and modern web development.
+
+                    </p>
+
+                    <p>
+
+                        I enjoy solving challenging problems, learning new
+                        technologies, and turning ideas into practical,
+                        user-friendly software.
+
+                    </p>
+
+                    <div class="about-highlights">
+
+                        <div class="highlight-card">
+
+                            <h4>
+
+                                Education
+
+                            </h4>
+
+                            <p>
+
+                                B.Tech Computer Science
+
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <h4>
+
+                                College
+
+                            </h4>
+
+                            <p>
+
+                                ABES Engineering College
+
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <h4>
+
+                                Location
+
+                            </h4>
+
+                            <p>
+
+                                Ghaziabad, India
+
+                            </p>
+
+                        </div>
+
+                        <div class="highlight-card">
+
+                            <h4>
+
+                                Interests
+
+                            </h4>
+
+                            <p>
+
+                                AI • Web Development • DSA
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================================
+            SKILLS
+        ======================================================== -->
+
+        <section class="skills section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+
+                        Tech Stack
+
+                    </span>
+
+                    <h2>
+
+                        Technologies I use and continue to learn.
+
+                    </h2>
+
+                </div>
+
+                <div class="skills-wrapper">
+
+                    <!-- Languages -->
+
+                    <div class="skill-group">
+
+                        <h3>
+
+                            Languages
+
+                        </h3>
+
+                        <div class="skill-chips">
+
+                            <span>C</span>
+
+                            <span>C++</span>
+
+                            <span>Python</span>
+
+                            <span>Java</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Frontend -->
+
+                    <div class="skill-group">
+
+                        <h3>
+
+                            Frontend
+
+                        </h3>
+
+                        <div class="skill-chips">
+
+                            <span>HTML5</span>
+
+                            <span>CSS3</span>
+
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Tools -->
+
+                    <div class="skill-group">
+
+                        <h3>
+
+                            Tools
+
+                        </h3>
+
+                        <div class="skill-chips">
+
+                            <span>Git</span>
+
+                            <span>GitHub</span>
+
+                            <span>VS Code</span>
+
+                            <span>Streamlit</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Learning -->
+
+                    <div class="skill-group">
+
+                        <h3>
+
+                            Currently Learning
+
+                        </h3>
+
+                        <div class="skill-chips">
+
+                            <span>React</span>
+
+                            <span>Node.js</span>
+
+                            <span>Spring Boot</span>
+
+                            <span>Machine Learning</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+                <!-- =======================================================
+            JOURNEY
+        ======================================================== -->
+
+        <section class="journey section" id="journey">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+
+                        My Journey
+
+                    </span>
+
+                    <h2>
+
+                        Every project has been another step forward.
+
+                    </h2>
+
+                    <p>
+
+                        I believe consistent learning and building are the
+                        foundation of becoming a great software engineer.
+
+                    </p>
+
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item left">
+
+                        <div class="timeline-content">
+
+                            <span class="year">
+
+                                2024
+
+                            </span>
+
+                            <h3>
+
+                                Started B.Tech in Computer Science
+
+                            </h3>
+
+                            <p>
+
+                                Began my engineering journey at ABES Engineering
+                                College and started learning programming,
+                                problem solving and computer science fundamentals.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="timeline-item right">
+
+                        <div class="timeline-content">
+
+                            <span class="year">
+
+                                2025
+
+                            </span>
+
+                            <h3>
+
+                                Started Building Real Projects
+
+                            </h3>
+
+                            <p>
+
+                                Worked on AI applications, weather dashboard,
+                                portfolio website and explored modern web
+                                development technologies.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="timeline-item left">
+
+                        <div class="timeline-content">
+
+                            <span class="year">
+
+                                2026
+
+                            </span>
+
+                            <h3>
+
+                                Preparing for Internships
+
+                            </h3>
+
+                            <p>
+
+                                Improving DSA, software engineering knowledge,
+                                backend development and AI technologies while
+                                building production-quality projects.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="timeline-item right">
+
+                        <div class="timeline-content">
+
+                            <span class="year">
+
+                                Future
+
+                            </span>
+
+                            <h3>
+
+                                Software Engineer
+
+                            </h3>
+
+                            <p>
+
+                                Continue building products that solve meaningful
+                                problems while contributing to impactful
+                                engineering teams.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================================
+            ACHIEVEMENTS
+        ======================================================== -->
+
+        <section class="achievements section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+
+                        Highlights
+
+                    </span>
+
+                    <h2>
+
+                        Continuous learning and consistent improvement.
+
+                    </h2>
+
+                </div>
+
+                <div class="achievement-grid">
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        <h3>
+
+                            Competitive Programming
+
+                        </h3>
+
+                        <p>
+
+                            Regularly solving coding problems to improve
+                            problem-solving skills.
+
+                        </p>
+
+                    </div>
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                        <h3>
+
+                            Personal Projects
+
+                        </h3>
+
+                        <p>
+
+                            Building software that strengthens practical
+                            development skills.
+
+                        </p>
+
+                    </div>
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                        <h3>
+
+                            AI Learning
+
+                        </h3>
+
+                        <p>
+
+                            Exploring artificial intelligence and modern
+                            developer tools.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =======================================================
+            CONTACT
+        ======================================================== -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <span class="section-label">
+
+                        Get In Touch
+
+                    </span>
+
+                    <h2>
+
+                        Let's build something amazing together.
+
+                    </h2>
+
+                    <p>
+
+                        Whether you have an internship opportunity,
+                        project idea or simply want to connect,
+                        my inbox is always open.
+
+                    </p>
+
+                    <div class="contact-buttons">
+
+                        <a href="mailto:hemantsinghsai@gmail.com"
+                            class="btn btn-primary">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            Email Me
+
+                        </a>
+
+                        <a href="assets/resume/Hemant_Singh_Resume.pdf"
+                            target="_blank"
+                            class="btn btn-secondary">
+
+                            Resume
+
+                        </a>
+
+                    </div>
+
+                    <div class="contact-social">
+
+                        <a href="https://github.com/Hemantsinghsai">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/hemant-singh-a77942379/">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+                        <a href="https://leetcode.com/u/Hemantsinghsai/">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </a>
+
+                        <a href="mailto:hemantsinghsai@gmail.com">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ===========================================================
+        FOOTER
+    ============================================================ -->
+
+    <footer class="footer">
+
+        <div class="container footer-wrapper">
+
+            <div>
+
+                <h3>
+
+                    Hemant Singh
+
+                </h3>
+
+                <p>
+
+                    Building software with curiosity,
+                    precision and purpose.
+
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#hero">Home</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 Hemant Singh.
+            Crafted with HTML, CSS & JavaScript.
+
+        </div>
+
+    </footer>
+
+    <!-- ===========================================================
+        COMMAND PALETTE
+    ============================================================ -->
+
+    <div class="command-palette">
+
+        <div class="command-window">
+
+            <input
+                type="text"
+                placeholder="Search anything... (Ctrl + K)">
+
+            <div class="command-results">
+
+                <!-- JavaScript -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===========================================================
+        BACK TO TOP
+    ============================================================ -->
+
+    <button
+        id="backToTop"
+        aria-label="Back To Top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- ===========================================================
+        JAVASCRIPT
+    ============================================================ -->
+
+    <script src="script.js"></script>
+    <script src="js/neural-background.js"></script>
+
+
+</body>
+
+</html>
