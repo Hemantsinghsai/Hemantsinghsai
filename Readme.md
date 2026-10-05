@@ -1,6 +1,8 @@
 # 🚀 Hemant Singh — Developer Portfolio
 
-![Portfolio Banner](assets/banner.png)
+<p align="center">
+  <img src="assets/banner.png" alt="Hemant Singh Portfolio Banner" width="800">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
