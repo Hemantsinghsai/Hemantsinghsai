@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 
-I'm **Hemant Singh**, a Computer Science & Engineering student at **ABES Engineering College**, pursuing B.Tech in CSE under AKTU with a **CGPA of 8.78**.
+I'm **Hemant Singh**, a Computer Science & Engineering student.
 
 I'm interested in:
 
@@ -73,81 +73,9 @@ I enjoy building practical applications and continuously improving my programmin
 
 ---
 
-## 💻 Projects
-
-### 🤖 AI Research Agent
-
-**Technologies:** Python, Streamlit, SerpAPI, newspaper3k
-
-A web-based research assistant that automates topic-based information discovery.
-
-**Highlights:**
-
-- Searches Google through SerpAPI and retrieves up to 5 relevant sources per query.
-- Uses newspaper3k for automated article extraction.
-- Extracts article titles, content, publication dates, and source URLs.
-- Generates concise summaries using word-frequency-based sentence scoring.
-- Provides an interactive Streamlit dashboard.
-- Includes source cards, search history, reading-time estimates, and research metrics.
-- Provides direct links to original articles.
-
----
-
-### 🌦️ Weather Dashboard
-
-**Technologies:** HTML5, CSS3, JavaScript, React.js, Weather API
-
-A responsive weather dashboard providing real-time weather information and forecasts.
-
-**Highlights:**
-
-- Displays temperature, humidity, wind speed, and 5-day forecasts.
-- Integrates a weather API for real-time weather data.
-- Uses the browser Geolocation API for location-based weather.
-- Supports city and ZIP-code search.
-- Provides dynamic UI elements based on current weather conditions.
-- Responsive across desktop and mobile devices.
-
----
-
-## 📜 Certifications
-
-| Certification | Organization | Date |
-|---|---|---|
-| Blockchain Basics | Cyfrin Updraft | September 2025 |
-| Python Essentials 1 & 2 | Cisco | August 2026 |
-
----
-
-## 🏆 Extracurricular Activities
-
-### Conference Volunteer — ICCSC 2026
-
-**International Conference on Computing, Sciences & Communication**
-
-February 2026
-
-### UBA × IIT Delhi Community Outreach
-
-Conducted an awareness session on **drug abuse and addiction** for school students as part of a rural community engagement initiative.
-
-August 2026
-
----
-
 ## 🎓 Education
 
-**B.Tech in Computer Science & Engineering**
-
-[ABES Engineering College](https://abes.ac.in/)
-
-AKTU
-
-**September 2024 – July 2028**
-
-**CGPA: 8.78**
-
----
+**Computer Science & Engineering**
 
 ## 📬 Connect With Me
 
@@ -155,7 +83,7 @@ AKTU
   <a href="mailto:hemantsinghsai@gmail.com">
     <img src="https://img.shields.io/badge/Email-hemantsinghsai%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://www.linkedin.com/in/hemant-singh-a77942379/">
+  <a href="https://www.linkedin.com/in/hemantsinghsai/">
     <img src="https://img.shields.io/badge/LinkedIn-Hemant%20Singh-blue?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="https://github.com/Hemantsinghsai">
