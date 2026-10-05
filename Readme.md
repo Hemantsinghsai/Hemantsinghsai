@@ -1,218 +1,176 @@
 # 🚀 Hemant Singh — Developer Portfolio
 
 <p align="center">
-  <img src="assets/banner.png" alt="Hemant Singh Portfolio Banner" width="800">
+  <img src="assets/banner.png" alt="Hemant Singh Portfolio" width="300">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Responsive-✔-success?style=for-the-badge">
+  <strong>Computer Science & Engineering Student | Software Developer | Competitive Programmer</strong>
 </p>
 
 <p align="center">
-A modern, animated and fully responsive portfolio website showcasing my skills, projects, achievements and journey as a Computer Science student.
+  <a href="mailto:hemantsinghsai@gmail.com">📧 Email</a> •
+  <a href="https://www.linkedin.com/in/hemant-singh-a77942379/">🔗 LinkedIn</a> •
+  <a href="https://github.com/Hemantsinghsai">💻 GitHub</a> •
+  <a href="https://leetcode.com/u/Hemantsinghsai/">🧩 LeetCode</a> •
+  <a href="https://hemantsinghsai.vercel.app/">🌐 Portfolio</a>
 </p>
 
 ---
 
-# ✨ Live Preview
+## 👨‍💻 About Me
 
-> *(Deploy on GitHub Pages, Vercel or Netlify and add your link here.)*
+I'm **Hemant Singh**, a Computer Science & Engineering student at **ABES Engineering College**, pursuing B.Tech in CSE under AKTU with a **CGPA of 8.78**.
 
-🔗 https://your-portfolio-link.com
+I'm interested in:
 
----
+- Web Development
+- Software Development
+- Competitive Programming
+- Problem Solving
+- Algorithmic Thinking
 
-# 📸 Preview
-
-> Add screenshots after deployment.
-
-| Desktop         | Mobile          |
-| --------------- | --------------- |
-| Screenshot Here | Screenshot Here |
+I enjoy building practical applications and continuously improving my programming and development skills.
 
 ---
 
-# 🚀 Features
+## 🛠️ Technical Skills
 
-* Modern UI/UX
-* Fully Responsive
-* Dark / Light Theme
-* Animated Hero Section
-* Typing Animation
-* Interactive Skills
-* Glassmorphism Cards
-* Project Showcase
-* GitHub Statistics
-* Smooth Scrolling
-* Scroll Animations
-* Mouse Glow Effect
-* Loading Screen
-* Scroll Progress Bar
-* Resume Download
-* Contact Form
-* SEO Friendly
-* Optimized Performance
+### Programming Languages
 
----
+- C
+- C++
+- Python
+- Java
+- JavaScript
 
-# 🛠 Tech Stack
+### Web Technologies
 
-## Frontend
+- HTML5
+- CSS3
+- React.js
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+### Core Computer Science
 
-## Libraries
+- Data Structures & Algorithms
+- Object-Oriented Programming (OOP)
+- Problem Solving
+- Algorithmic Thinking
 
-* AOS
-* Typed.js
-* VanillaTilt.js
-* Particles.js
-* Font Awesome
+### APIs & Development
+
+- RESTful APIs
+- API Integration
+- Responsive Web Development
+- Web Application Development
+
+### Developer Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+- LeetCode
 
 ---
 
-# 📂 Project Structure
+## 💻 Projects
 
-```
-Hemant-Portfolio/
+### 🤖 AI Research Agent
 
-│
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-│
-├── assets/
-│   ├── profile.png
-│   ├── banner.png
-│   ├── hero-bg.jpg
-│   ├── ai-agent.png
-│   ├── weather-dashboard.png
-│   └── resume.pdf
-│
-└── favicon.ico
-```
+**Technologies:** Python, Streamlit, SerpAPI, newspaper3k
+
+A web-based research assistant that automates topic-based information discovery.
+
+**Highlights:**
+
+- Searches Google through SerpAPI and retrieves up to 5 relevant sources per query.
+- Uses newspaper3k for automated article extraction.
+- Extracts article titles, content, publication dates, and source URLs.
+- Generates concise summaries using word-frequency-based sentence scoring.
+- Provides an interactive Streamlit dashboard.
+- Includes source cards, search history, reading-time estimates, and research metrics.
+- Provides direct links to original articles.
 
 ---
 
-# 👨‍💻 About Me
+### 🌦️ Weather Dashboard
 
-I'm **Hemant Singh**, a Computer Science & Engineering student passionate about
+**Technologies:** HTML5, CSS3, JavaScript, React.js, Weather API
 
-* Artificial Intelligence
-* Software Development
-* Competitive Programming
-* Web Development
-* Problem Solving
+A responsive weather dashboard providing real-time weather information and forecasts.
 
-I enjoy building practical applications and continuously learning modern technologies.
+**Highlights:**
 
----
-
-# 💻 Projects
-
-## 🤖 AI Research Agent
-
-A web application capable of performing automated research using REST APIs and Python-based frameworks.
-
-### Technologies
-
-* Python
-* REST API
-* HTML
-* CSS
-* JavaScript
+- Displays temperature, humidity, wind speed, and 5-day forecasts.
+- Integrates a weather API for real-time weather data.
+- Uses the browser Geolocation API for location-based weather.
+- Supports city and ZIP-code search.
+- Provides dynamic UI elements based on current weather conditions.
+- Responsive across desktop and mobile devices.
 
 ---
 
-## 🌦 Weather Dashboard
+## 📜 Certifications
 
-A responsive weather forecasting application using real-time APIs.
-
-### Technologies
-
-* HTML
-* CSS
-* JavaScript
-* React (Basics)
+| Certification | Organization | Date |
+|---|---|---|
+| Blockchain Basics | Cyfrin Updraft | September 2025 |
+| Python Essentials 1 & 2 | Cisco | August 2026 |
 
 ---
 
-# 🎯 Future Goals
+## 🏆 Extracurricular Activities
 
-* Learn System Design
-* Master Data Structures & Algorithms
-* Build Full Stack Applications
-* Explore Machine Learning
-* Contribute to Open Source
+### Conference Volunteer — ICCSC 2026
 
----
+**International Conference on Computing, Sciences & Communication**
 
-# ⚙ Installation
+February 2026
 
-Clone the repository
+### UBA × IIT Delhi Community Outreach
 
-```bash
-git clone https://github.com/YOUR_USERNAME/portfolio.git
-```
+Conducted an awareness session on **drug abuse and addiction** for school students as part of a rural community engagement initiative.
 
-Open the project
-
-```bash
-cd portfolio
-```
-
-Launch
-
-```
-index.html
-```
-
-or run using
-
-VS Code → Live Server
+August 2026
 
 ---
 
-# 📬 Contact
+## 🎓 Education
 
-**Email**
+**B.Tech in Computer Science & Engineering**
 
-[hemantsinghsai@gmail.com](mailto:hemantsinghsai@gmail.com)
+[ABES Engineering College](https://abes.ac.in/)
 
-**LinkedIn**
+AKTU
 
-Add your profile
+**September 2024 – July 2028**
 
-**GitHub**
-
-Add your profile
-
-**LeetCode**
-
-Add your profile
+**CGPA: 8.78**
 
 ---
 
-# ⭐ Support
+## 📬 Connect With Me
 
-If you like this project,
-
-⭐ Star the repository.
-
----
-
-# 📜 License
-
-This project is open-source and available under the MIT License.
+<p align="center">
+  <a href="mailto:hemantsinghsai@gmail.com">
+    <img src="https://img.shields.io/badge/Email-hemantsinghsai%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/hemant-singh-a77942379/">
+    <img src="https://img.shields.io/badge/LinkedIn-Hemant%20Singh-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://github.com/Hemantsinghsai">
+    <img src="https://img.shields.io/badge/GitHub-Hemantsinghsai-black?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://leetcode.com/u/Hemantsinghsai/">
+    <img src="https://img.shields.io/badge/LeetCode-Hemantsinghsai-orange?style=for-the-badge&logo=leetcode&logoColor=white">
+  </a>
+  <a href="https://hemantsinghsai.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-success?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+</p>
 
 ---
 
 <p align="center">
-Made with ❤️ by <b>Hemant Singh</b>
+  Made with ❤️ by <strong>Hemant Singh</strong>
 </p>
